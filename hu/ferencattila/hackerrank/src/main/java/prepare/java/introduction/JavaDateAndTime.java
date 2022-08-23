@@ -1,4 +1,4 @@
-package prepare.java.introduction;
+package java.prepare.java.introduction;
 
 import java.io.*;
 import java.math.*;
@@ -26,8 +26,9 @@ public class JavaDateAndTime {
          */
 
         public static String findDay(int month, int day, int year) {
-            Calendar date;
-            String dayOfWeek = date.getDayOfWeek().toString();
+            Calendar date = new GregorianCalendar();
+            String dayOfWeek = date.toString();
+            return dayOfWeek;
         }
 
 }
