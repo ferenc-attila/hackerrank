@@ -1,4 +1,4 @@
-package java.prepare.java.introduction;
+package prepare.java.introduction;
 
 import java.util.Scanner;
 
