@@ -10,6 +10,7 @@ public class IsAnagrams {
         Scanner scanner = new Scanner(System.in);
         String firstInput = scanner.nextLine();
         String secondInput = scanner.nextLine();
+        scanner.close();
 
 //        String firstInput = "anagram";
 //        String secondInput = "margana";
