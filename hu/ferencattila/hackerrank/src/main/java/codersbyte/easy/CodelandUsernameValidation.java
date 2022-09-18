@@ -1,4 +1,4 @@
-package codersbyte;
+package codersbyte.easy;
 
 import java.util.Scanner;
 import java.util.regex.Matcher;
